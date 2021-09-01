@@ -10,6 +10,7 @@
 ## 2nd Year Code Languages
 
 ### C++
+### OpenGL
 ### C#
 
 ## 3rd Year Code Languages
