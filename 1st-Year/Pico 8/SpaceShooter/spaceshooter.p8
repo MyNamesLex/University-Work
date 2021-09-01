@@ -1,0 +1,355 @@
+pico-8 cartridge // http://www.pico-8.com
+version 18
+__lua__
+function _init() 
+	modegame = {update=updategame,draw=drawgame}
+	modegameover = {update=updategameover, draw=drawgameover}
+	initgame() 
+end 
+
+function _update60() 
+	mode.update() 
+end
+ 
+function _draw() 
+	cls() 
+	mode.draw() 
+end
+-->8
+function initgame() 
+mode = modegame
+ship = {x=60,y=110,cooldown=0} 
+bullets = {} 
+enemies = {}
+for i = 1, 1000 do
+	updatestars()
+end 
+end 
+
+function updategame() 
+-- update game objects 
+updateship() 
+updateexplosions()
+updatebullets()
+updatestars() 
+updateenemies() 
+-- do collision 
+enemycollision() 
+shipcollision() 
+end 
+
+function drawgame() 
+drawship() 
+drawbullets()
+drawstars()
+drawenemies() 
+drawexplosions()
+end
+-->8
+function fire(x, y) 
+		if ship.cooldown > 0 then 
+			return 
+		end 
+		add(bullets, {x=x, y=y}) 
+		ship.cooldown=10
+		sfx (0)
+		end
+
+function updateship()
+
+if btn(0) and ship.x > 0 then 
+		ship.x -= 1 
+	end
+	 
+if btn(1) and ship.x < 112 then
+		ship.x += 1 
+	end
+	
+if btn(2) and ship.y > 0 then
+		ship.y -= 1
+		end
+		
+if btn(3) and ship.y < 112 then
+	ship.y += 1
+	end
+	
+ship.cooldown -= 1 
+if btn(4) then 
+		fire(ship.x+6,ship.y) 
+end
+end 
+
+function drawship() 
+spr(0,ship.x,ship.y,2,2)
+end
+-->8
+function updatebullets()
+for bullet in all(bullets) do
+	bullet.y -= 3
+		if bullet.y < 0 then
+			del(bullets,b)
+		end
+	end
+end 
+
+function drawbullets()
+for bullet in all (bullets) do
+		spr (2,bullet.x,bullet.y)
+	end
+end
+-->8
+function splitenemy(e) 
+	del(enemies,e) 
+	if e.ss == 1 then 
+		return 
+	end 
+	for i = 1,4 do 
+	-- random position 
+			x = e.x - 2 + rnd(4) 
+			y = e.y - 2 + rnd(4) 
+	-- random speeds 
+			xspeed = -1.5+rnd(3) 
+			yspeed = 0.1+rnd(2.0) 
+			-- random sprite 
+			sprite = flr(11+rnd(4)) 
+			add(enemies,{x=x,y=y,xspeed=xspeed,yspeed=yspeed,sprite=sprite,ss=1}) 
+		end 
+end
+
+function spawnenemies() 
+if rnd() < 0.01 then 
+	-- choose random position 
+	x = rnd(128) 
+	y = -16 
+	-- random speeds 
+	xspeed = -0.1 + rnd(0.2) 
+	yspeed = 0.2 + rnd(0.5) 
+	--random sprite from 3,5,7,9 
+	sprites = {3,5,7,9} 
+	sprite_choice = 1+flr(rnd(4)) 
+	sprite = sprites[sprite_choice]
+	-- create enemy table and add 
+	new_enemy = {x=x,y=y,xspeed=xspeed,yspeed=yspeed,sprite=sprite,ss=2}
+	add(enemies,new_enemy)
+end 
+end
+
+function spawnstars() 
+if rnd() < 0.1 then 
+	-- choose random position 
+	x = rnd(128) 
+	y = -16 
+	-- random speeds 
+	xspeed = 0
+	yspeed = 0.3 + rnd(0.1) 
+	--random sprite from 3,5,7,9 
+	sprites = {40,41,42,43} 
+	sprite_choice = 1+flr(rnd(4)) 
+	sprite = sprites[sprite_choice]
+	add(stars,{x=x,y=y,xspeed=xspeed,yspeed=yspeed,sprite=sprite})
+end
+end
+
+function updateenemies() 
+spawnenemies() 
+for e in all(enemies) do 
+	e.x += e.xspeed 
+	e.y += e.yspeed 
+-- remove off screen enemies 
+if e.y > 128 then 
+	del(enemies, e) 
+	end 
+	end 
+end
+
+function updatestars() 
+spawnstars() 
+for s in all(stars) do 
+	s.x += s.xspeed 
+	s.y += s.yspeed 
+-- remove off screen enemies 
+if s.y > 128 then 
+	del(stars, s) 
+	end 
+	end 
+end
+
+
+function drawenemies()
+	for enemy in all (enemies) do
+		spr (enemy.sprite,enemy.x,enemy.y,enemy.ss,enemy.ss)
+ 
+	end
+		print(#enemies,8,y) 
+end
+
+stars={}
+
+function drawstars()
+	for star in all (stars) do
+		spr (star.sprite,star.x,star.y,2,2)
+	end
+		print(#stars,0,0) 
+end
+
+-->8
+function collision( hb1, hb2 ) 
+-- collision of two hitboxes 
+if hb1.x + hb1.w < hb2.x then 
+		return false 
+		end 
+if hb1.y + hb1.h < hb2.y then 
+		return false 
+		end 
+if hb2.x + hb2.w < hb1.x then 
+		return false 
+		end 
+if hb2.y + hb2.h < hb1.y then
+		return false 
+		end 
+return true 
+end
+-- collision functions
+function enemycollision()
+-- collide bullets with enemies 
+for b in all(bullets) do 
+	for e in all(enemies) do 
+		hb1 = {x=b.x,y=b.y,w=2,h=4} 
+		hb2 = {x=e.x,y=e.y,w=e.ss*8,h=e.ss*8} 
+if collision(hb1, hb2 ) then 
+		del(bullets,b) 
+	 splitenemy(e)
+	 addexplosion(b.x-8,b.y-8)
+		sfx(1)
+	end 
+	end 
+end
+end
+-- collide bullets with enemies
+
+function shipcollision()
+	for e in all (enemies) do
+	shiphb = {x=ship.x+2,y=ship.y+4,w=12,h=12}
+	ehb = {x=e.x,y=e.y,w=e.ss*8,h=e.ss*8}
+	if collision(shiphb, ehb) then
+		initgameover()
+	end
+	end
+end
+-- collide enemies with ship
+-->8
+-- gameover functions 
+function initgameover()
+spawnparticles(100,ship.x,ship.y) 
+	mode=modegameover 
+	gameovercount = 0 
+end 
+
+function updategameover()
+	updateparticles() 
+	gameovercount += 1 
+	if gameovercount > 50 then 
+		if btn(5) then 
+			initgame() 
+		end 
+	end 
+end 
+
+function drawgameover() 
+	drawparticles()
+	print("game over",50, 64) 
+	if gameovercount > 50 then 
+		print("press ❎", 50, 72) 
+	end 
+end
+-->8
+-- particles and explosions 
+explosions = {} 
+
+function addexplosion(x, y) 
+		add(explosions,{x=x,y=y,age=0}) 
+	end 
+	
+function updateexplosions() 
+	for e in all(explosions) do 
+		e.age += 1 if e.age > 20 then 
+			del(explosions,e) 
+		end 
+	end 
+end 
+
+function drawexplosions() 
+	for e in all(explosions) do 
+		if e.age < 4 then 
+			spr(32,e.x,e.y,2,2) 
+		elseif e.age < 8 then 
+		 spr(34,e.x,e.y,2,2) 
+		elseif e.age < 12 then 
+			spr(36,e.x,e.y,2,2) 
+		else 
+		 spr(38,e.x,e.y,2,2) 
+		end 
+	end 
+end
+
+particles = {} 
+
+function updateparticles() 
+	for p in all(particles) do 
+		p.x += p.xspeed 
+		p.y += p.yspeed 
+	end 
+end 
+
+function drawparticles() 
+	for p in all(particles) do 
+	spr(27,p.x,p.y) 
+ end
+end 
+
+function spawnparticles(n, x, y) 
+	for i = 1,n do 
+		xspeed = -3 + rnd(6) 
+		yspeed = -3 + rnd(6) 
+		add(particles,{x=x,y=y,xspeed=xspeed,yspeed=yspeed}) 
+		end 
+end
+__gfx__
+00000000000000000000000000000000000000000000000000000000000005500000000000000000000000000050000000000000005500000000550000000000
+00000000000000000800000000000000000000000000555555500000000056655000000000055555000000000555000000550000055550000005555000000000
+00000000000000008980000000055555000000000005666666650000000566666550000005556665555550000566500005565000056655000055665000000000
+00000000000000009a90000000566666550000000005666776665000005666666655000005666666666655000556550005565500055655500055655000000000
+0005500000055000a7a0000005666666665000000056666777665000005667777666500005666666667665500055555000556500005556500555555000000000
+00565050050575000000000005566667765000000566666667766500005666677766650005666666667766500055665000055650000556500565550000000000
+00565050050575000000000005556666765000000566666666666500005666666666650005666666666776500005550000005555000055000055500000000000
+05665066660577500000000005556666665000000555555666666500005655555555550005666666666666500000500000000550000000000000000000000000
+01cc15711751cc100000000005555556665000000555555566666500005555555555550000566666666666500000000000000000000000000000000000000000
+01cc15c11151cc100000000000555555650000000555555555555000005555555555550000555666666666500000000000000000000000000000000000000000
+01cc15777751cc100000000000055555500000000555555555555000005555555555500005555566556665500000000000000000000000000000000000000000
+05665577775577500000000000000000000000000555555555555000005555555555000005555555556655000007600000000000000000000000000000000000
+05665566665577500000000000000000000000000055555555550000000555555550000005555555555555000005500000000000000000000000000000000000
+00510055550016000000000000000000000000000005555555000000000000000000000000555555555555000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000055555555555000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000080000000800008080008880080008000000000008000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000800000000000008899000008000008990000900000800007000000000000000070000000000000000000000000000000000000000000
+000000000000000000008aaaa0008800000999999900000008880000099000000000000000070000000000000007000000000000000000000000000000000000
+000000000000000000000a888a0a0800009999aa9900000000800000009000000000000000000000000000000000000000000000000000000000000000000000
+00000099a0000000080aa087789000800099997a90800000008a080000a000000000000000000000000000000000000000000000000000000000000000000000
+00000087900000008000089878800000009999aa909008000090000000aa09800000000000000000000000000000000000000000000000000000000000000000
+0000009990000000000009998900800080999999099008000000a000aa0000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000808000000000809999999900080000800000000008000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000880000800989900000080000800000000a98000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000080000800000808000880000900a0090a008000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000008008000000000000880000000000000080a09000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000008008000000000080000000000000900890000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000008000000000088000000000000090880080000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000080000800000000000000000000000000000000000000000000000000000000000000000
+__sfx__
+00030100346203462034620316202c6201c6200c62000600006000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+001000000b6700b6700b6700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+__music__
+00 01424344
+
