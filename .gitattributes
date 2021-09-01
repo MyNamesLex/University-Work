@@ -3,3 +3,4 @@
 *.cs linguist-vendored=false
 *.pde linguist-vendored=false
 *.p8 text diff=lua
+*.p8 linguist-vendored=false
