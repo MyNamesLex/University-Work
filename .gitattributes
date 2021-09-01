@@ -5,7 +5,5 @@
 *.p8 text diff=lua
 *.p8 linguist-vendored=false
 *.lua linguist-vendored=false
-*.java text diff=java
-*.Java text diff=Java
+*.java text diff=javascript
 *.java linguist-vendored=false
-*.Java linguist-vendored=false
