@@ -4,3 +4,10 @@
 
 ### Lua
 ### JavaScript
+### C#
+
+
+## 2nd Year Year Code Languages
+
+### C++
+### C#
