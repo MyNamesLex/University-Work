@@ -1,5 +1,6 @@
 $ cat .gitattributes
 *.html linguist-detectable=false
+*.c linguist-detectable=false
 *.java linguist-language=JavaScript
 *.cpp linguist-language=C++
 *.pde linguist-language=Processing
