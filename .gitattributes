@@ -1,2 +1,5 @@
-*.java text diff=java
-*.html linguist-detectable=false
+$ cat .gitattributes
+*.java linguist-language=JavaScript
+*.cpp linguist-language=C++
+*.pde linguist-language=Processing
+*.p8 linguist-language=Lua
