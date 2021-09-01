@@ -1,1 +1,4 @@
 *.java = text diff=java
+*.html linguist-detectable=false
+*.c linguist-detectable=false
+*.asp.net linguist-detectable=false
