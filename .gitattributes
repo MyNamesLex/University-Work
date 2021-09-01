@@ -1,1 +1,2 @@
 *.java text diff=java
+*.c linguist-detectable=false
