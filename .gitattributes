@@ -2,6 +2,4 @@
 *.cpp linguist-vendored=false
 *.cs linguist-vendored=false
 *.pde linguist-vendored=false
-*.p8 linguist-language=lua
-*.lua linguist-vendored=false
-*.p8 linguist-vendored=false
+*.p8 text diff=lua
