@@ -1,5 +1,6 @@
 $ cat .gitattributes
 *.html linguist-detectable=false
+*.aspx linguist-detectable=false
 *.c linguist-detectable=false
 *.css linguist-detectable=false
 *.java linguist-language=JavaScript
