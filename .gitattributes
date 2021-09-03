@@ -3,6 +3,7 @@ $ cat .gitattributes
 *.aspx linguist-detectable=false
 *.c linguist-detectable=false
 *.css linguist-detectable=false
+*.asp.net linguist-detectable=false
 *.java linguist-language=JavaScript
 *.cpp linguist-language=C++
 *.pde linguist-language=Processing
