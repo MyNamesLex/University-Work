@@ -11,6 +11,7 @@ $ cat .gitattributes
 *.txt linguist-detectable=false
 *.in linguist-detectable=false
 *.shader linguist-detectable=false
+*.cginc linguist-detectable=false
 
 # Sources CPP
 *.c     linguist-detectable=false
