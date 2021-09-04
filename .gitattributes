@@ -9,6 +9,7 @@ $ cat .gitattributes
 *.pde linguist-language=Processing
 *.p8 linguist-language=Lua
 *.CMakeLists.txt linguist-detectable=false
+*.in linguist-detectable=false
 
 # Sources CPP
 *.c     linguist-detectable=false
