@@ -10,6 +10,7 @@ $ cat .gitattributes
 *.p8 linguist-language=Lua
 *.txt linguist-detectable=false
 *.in linguist-detectable=false
+*.shader linguist-detectable=false
 
 # Sources CPP
 *.c     linguist-detectable=false
