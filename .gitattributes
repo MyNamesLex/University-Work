@@ -1,11 +1,18 @@
 $ cat .gitattributes
 *.html linguist-detectable=false
+*.aspx linguist-detectable=false
 *.c linguist-detectable=false
 *.css linguist-detectable=false
+*.asp.net linguist-detectable=false
 *.java linguist-language=JavaScript
 *.cpp linguist-language=C++
 *.pde linguist-language=Processing
 *.p8 linguist-language=Lua
+*.txt linguist-detectable=false
+*.in linguist-detectable=false
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
+
 
 # Sources CPP
 *.c     linguist-detectable=false
