@@ -5,3 +5,4 @@
 *.css linguist-detectable=false
 *.cginc linguist-detectable=false
 *.txt linguist-detectable=false
+**/Libraries*.cpp linguist-detectable=false
