@@ -5,5 +5,3 @@
 *.css linguist-detectable=false
 *.cginc linguist-detectable=false
 *.txt linguist-detectable=false
-*.hpp linguist-detectable=false
-*.inl linguist-detectable=false
