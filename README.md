@@ -1,5 +1,7 @@
 # University Work
 
+(only including the units/coursework related to games development)
+
 ## 1st Year Coding Languages
 
 ### Lua
