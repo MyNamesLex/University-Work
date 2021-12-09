@@ -1,10 +1,10 @@
-**[Ll]ibrary/
-**[Ll]ibraries/
-**[Tt]emp/
-**[Oo]bj/
-**[Uu]serSettings/
-**[Ll]ogs/
-**[Bb]uilt/
+[Ll]ibrary/
+[Ll]ibraries/
+[Tt]emp/
+[Oo]bj/
+[Uu]serSettings/
+[Ll]ogs/
+[Bb]uilt/
 
 # Visual Studio cache directory
 .vs/
