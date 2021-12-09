@@ -4,3 +4,4 @@
 *.shader linguist-detectable=false
 *.css linguist-detectable=false
 *.cginc linguist-detectable=false
+*.txt linguist-detectable=false
