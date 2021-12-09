@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Left Wall
+  - Right Wall
+  - Bottom Wall
+  - Top Wall
+  - Snake1
+  - Snake2
+  - Snake3
+  - Snake4
+  - Snake0
+  - Enemy
+  - EnemiesOnScreen
+  - TierOne
+  - TierTwo
+  - TierThree
+  - TierFour
+  - Explosion
+  - ExplosionManager
+  - PoisonCircle
+  - SnakeButton0
+  - SnakeButton1
+  - SnakeButton2
+  - SnakeButton3
+  - SnakeButton4
+  - NewSnakeButton
+  - SellSnakeButton
+  - SnakeManager
+  - UpgradeSnakeButton
+  - UpgradeSnakeButtonDev
+  - UpgradeScreenObject
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
