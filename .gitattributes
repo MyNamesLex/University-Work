@@ -1,3 +1,4 @@
 *.html linguist-detectable=false
-*.c linguist-detectable=false
-*.asp.net linguist-detectable=false
+*.H linguist-detectable=false
+*.aspx linguist-detectable=false
+*.shader linguist-detectable=false
