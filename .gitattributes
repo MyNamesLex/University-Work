@@ -6,3 +6,4 @@
 *.cginc linguist-detectable=false
 *.txt linguist-detectable=false
 *.shader linguist-detectable=false
+*.glsl linguist-detectable=false
