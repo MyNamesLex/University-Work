@@ -13,8 +13,11 @@
 
 ### C++
 ### OpenGL
+### GLSL
 ### C#
 
 ## 3rd Year Coding Languages
 ### OpenGL 
+### GLSL
 ### C++
+### C#
