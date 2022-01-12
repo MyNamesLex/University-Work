@@ -5,7 +5,7 @@
 ## 1st Year Coding Languages
 
 ### Lua
-### JavaScript
+### Java
 ### C#
 ### Processing
 
