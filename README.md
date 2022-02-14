@@ -5,7 +5,7 @@
 ## 1st Year Coding Languages
 
 ### Lua
-### JavaScript
+### Java
 ### C#
 ### Processing
 
@@ -13,8 +13,11 @@
 
 ### C++
 ### OpenGL
+### GLSL
 ### C#
 
 ## 3rd Year Coding Languages
 ### OpenGL 
+### GLSL
 ### C++
+### C#
