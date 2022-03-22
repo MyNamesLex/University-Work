@@ -9,3 +9,4 @@
 *.pxd linguist-detectable=false
 *.cginc linguist-detectable=false
 *.inc linguist-detectable=false
+*.cs linguist-detectable=false
