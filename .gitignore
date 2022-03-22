@@ -5,6 +5,9 @@
 **[Uu]serSettings/
 **[Ll]ogs/
 
+# .inc
+*.inc
+
 # Visual Studio cache directory
 .vs/
 
