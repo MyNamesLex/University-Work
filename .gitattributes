@@ -14,4 +14,4 @@
 *.config linguist-detectable=false
 
 # remove linguist detectable from renpy generated files
-**/renpy/** linguist-detectable=false
+renpy/** linguist-detectable=false
