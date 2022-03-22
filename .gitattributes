@@ -12,3 +12,4 @@
 *.sh linguist-detectable=false
 *.vbs linguist-detectable=false
 *.py linguist-detectable=false
+*.config linguist-detectable=false
