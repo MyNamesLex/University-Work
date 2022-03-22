@@ -8,3 +8,4 @@
 *.pxi linguist-detectable=false
 *.pxd linguist-detectable=false
 *.cginc linguist-detectable=false
+*.inc linguist-detectable=false
