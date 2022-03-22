@@ -3,5 +3,8 @@
 *.aspx linguist-detectable=false
 *.shader linguist-detectable=false
 *.css linguist-detectable=false
-*.cginc linguist-detectable=false
 *.txt linguist-detectable=false
+*.pyx linguist-detectable=false
+*.pxi linguist-detectable=false
+*.pxd linguist-detectable=false
+*.cginc linguist-detectable=false
