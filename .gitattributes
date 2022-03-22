@@ -15,4 +15,4 @@
 
 # remove linguist detectable from renpy generated files and build
 **/renpy/** linguist-detectable=false
-**/Week2Game-dists/** linguist-detectable=false 
+**/Week2Game-dists/** linguist-detectable=false
