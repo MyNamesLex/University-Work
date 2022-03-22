@@ -12,3 +12,6 @@
 *.sh linguist-detectable=false
 *.vbs linguist-detectable=false
 *.config linguist-detectable=false
+
+# remove linguist detectable from renpy generated files
+**renpy/** linguist-detectable=false
