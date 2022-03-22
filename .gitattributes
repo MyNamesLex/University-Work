@@ -10,4 +10,4 @@
 *.cginc linguist-detectable=false
 *.inc linguist-detectable=false
 *.sh linguist-detectable=false
-*.vbs linguist-detectable=false 
+*.vbs linguist-detectable=false
