@@ -1,0 +1,7 @@
+*.pyx linguist-detectable=false
+*.pxi linguist-detectable=false
+*.pxd linguist-detectable=false
+*.aspx linguist-detectable=false
+*.shader linguist-detectable=false
+*.py linguist-detectable=false
+*.cginc linguist-detectable=false
