@@ -11,4 +11,4 @@
 *.inc linguist-detectable=false
 *.sh linguist-detectable=false
 *.vbs linguist-detectable=false
-*.config linguist-detectable=false
+*.config linguist-detectable=false 
