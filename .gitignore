@@ -4,8 +4,8 @@
 **[Oo]bj/
 **[Uu]serSettings/
 **[Ll]ogs/
-**/obj/**
-**/bin/**
+**/[Oo]bj/**
+**/[Bb]in/**
 
 # Visual Studio cache directory
 .vs/
