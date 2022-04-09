@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg33052"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="WoodenSpoonDrawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33054"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="131.54528"
+     inkscape:cy="453.99985"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs33049" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#a05a2c;stroke-width:5.19999;stroke:none;stroke-opacity:1"
+       id="path33078"
+       cx="78.712135"
+       cy="167.06248"
+       rx="25.166466"
+       ry="33.198315" />
+    <rect
+       style="fill:#a05a2c;stroke:none;stroke-width:5.19999;stroke-opacity:1"
+       id="rect33247"
+       width="27.84375"
+       height="96.739182"
+       x="64.611778"
+       y="47.120193"
+       ry="5.6793871" />
+    <ellipse
+       style="fill:#f9f9f9;stroke:none;stroke-width:5.19999;stroke-opacity:1;opacity:0.13"
+       id="path33293"
+       cx="66.396629"
+       cy="170.09676"
+       rx="5.3545671"
+       ry="14.814302" />
+  </g>
+</svg>

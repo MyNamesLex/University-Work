@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: d24e09e7536bdd14586a3385756fea51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1598783825997149978
+    second: ScreenCrackArt_0
+  - first:
+      213: -1091698992105492753
+    second: ScreenCrackArt_1
+  - first:
+      213: 716609842501312246
+    second: ScreenCrackArt_2
+  - first:
+      213: 5760117308136110933
+    second: ScreenCrackArt_3
+  - first:
+      213: 5947196402005931010
+    second: ScreenCrackArt_4
+  - first:
+      213: 859617411051138616
+    second: ScreenCrackArt_5
+  - first:
+      213: 4485222143010265506
+    second: ScreenCrackArt_6
+  - first:
+      213: -5248184095529787448
+    second: ScreenCrackArt_7
+  - first:
+      213: -9107278321869548941
+    second: ScreenCrackArt_8
+  - first:
+      213: -8087768646594451430
+    second: ScreenCrackArt_9
+  - first:
+      213: -4060497221672414745
+    second: ScreenCrackArt_10
+  - first:
+      213: -7377750697109542713
+    second: ScreenCrackArt_11
+  - first:
+      213: -3558095900689633957
+    second: ScreenCrackArt_12
+  - first:
+      213: -4614792781180068321
+    second: ScreenCrackArt_13
+  - first:
+      213: -2825335468065008115
+    second: ScreenCrackArt_14
+  - first:
+      213: -6439867187486330022
+    second: ScreenCrackArt_15
+  - first:
+      213: 91072313152272772
+    second: ScreenCrackArt_16
+  - first:
+      213: -4033736949148041422
+    second: ScreenCrackArt_17
+  - first:
+      213: -1106770743485716951
+    second: ScreenCrackArt_18
+  - first:
+      213: -7279610929289592931
+    second: ScreenCrackArt_19
+  - first:
+      213: 5947497977580412843
+    second: ScreenCrackArt_20
+  - first:
+      213: -2113804735243452136
+    second: ScreenCrackArt_21
+  - first:
+      213: -3653668897962886780
+    second: ScreenCrackArt_22
+  - first:
+      213: 5692752979848072085
+    second: ScreenCrackArt_23
+  - first:
+      213: -8241063077373434394
+    second: ScreenCrackArt_24
+  - first:
+      213: -8039227227606147320
+    second: ScreenCrackArt_25
+  - first:
+      213: 7938695787730214649
+    second: ScreenCrackArt_26
+  - first:
+      213: -388737094504227729
+    second: ScreenCrackArt_27
+  - first:
+      213: 3838906487603148103
+    second: ScreenCrackArt_28
+  - first:
+      213: 7737813755377139763
+    second: ScreenCrackArt_29
+  - first:
+      213: 6574294264162579666
+    second: ScreenCrackArt_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScreenCrackArt_2
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 0
+        width: 526
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fed6d0ead8e1f900800000000000000
+      internalID: 716609842501312246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenCrackArt_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1068
+        width: 470
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18223a444972cf80800000000000000
+      internalID: -8087768646594451430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenCrackArt_11
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 995
+        width: 503
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8256974d6fc9990800000000000000
+      internalID: -7377750697109542713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenCrackArt_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 510
+        height: 625
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fb9accd994508c0800000000000000
+      internalID: -4033736949148041422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

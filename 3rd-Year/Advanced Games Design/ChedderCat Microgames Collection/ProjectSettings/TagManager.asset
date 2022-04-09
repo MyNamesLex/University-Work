@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Teeth
+  - Shirt
+  - Hat
+  - Pants
+  - Shoes
+  - Zip
+  - Line
+  - Coffee
+  - PersistenceHandler
+  - Ball
+  - Sandwich
+  - Ground
+  - Avoid
+  - Destructable
+  - LeftSide
+  - RightSide
+  - Sugar
+  - Milk
+  - Bullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Cam
+  - Water
+  - UI
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 2219346025
+    locked: 0
+  - name: Front
+    uniqueID: 3905222475
+    locked: 0

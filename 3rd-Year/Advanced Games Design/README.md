@@ -1,0 +1,15 @@
+(This game was made with Unity and C#)
+
+This was a bit of a messy project but i believe my contribution to the game was good and my grade that I got for this reflects it as i got 80% for this.
+
+This unit was a simulated studio where we were put into teams to develop a project that the project lead came up with, I decided I did not want to be the project leader but a programmer following someone else as I usually lead the projects I work on as evidenced In this repo and other works I have done on my github page working with others. Although I do enjoy leading a team I wanted to see what it was like being led by someone else in a game development environment so I deliberatly took the backseat and be told what parts to work on. 
+
+I was the lead programmer for this project and mainly focused on the bulk of the programming which involved 99% of the 'scenerequirements' prefab which served as the backbone of the programming for going between scenes, carrying data between scenes, saving and other aspects like that. The only part i didn't do was the saving aspect of the scenerequirements prefab, everything else in the prefab is my work. I also did the transition canvas and the microgame programming and also general advisor to the other programmer on how to do systems and other team members. 
+
+I mainly focused on extensibility of the systems as the management style for this studio was agile but I didn't get moved to another project. 
+
+Where I believe this project fell apart is the leadership as our leader for this project wasn't very strict with the members of the team and didn't give them clear instructions on what to do which the leader came to realise towards the end of this unit through the unit leaders as the unit leader was close to scrapping the project as progression had stalled due to the leadership and also me telling him to be more assertive with the team and give clear and direct instructions and telling him what we need to work on next.
+
+I was very conflicted because my aim for this project was to enhance my programming ability mainly but i also wanted to diversify and do other parts of game development, mainly sound effects and background music and to also be led by someone. Unfortunatly I was stuck to programming due to that needing to be done and I couldn't take the leadership role because that wouldn't be a very clean process and could very quickly make things worse and lead to conflict about who is the actual leader and blur the roles.
+
+I have started to look into making music and I'm making progress with that and I have learned a lot from this unit. Primarily making programs and systems that are extensible and systems that others can look at and understand rather easily with minimal explanation and also some of the aspects and stances a leader can take to avoid replicated what went wrong here.
