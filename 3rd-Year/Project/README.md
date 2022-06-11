@@ -1,6 +1,6 @@
 # Project
 
-This repository only includes one part of my final year project. This is the product part of it and the dissertation part.
+This repository only includes one part of my final year project. This is the product section of the project and does not include the dissertation part.
 
 This product title is 'Using Serious Games To Raise Highway Code Awareness'.
 
