@@ -4,7 +4,7 @@ This repository only incluides one part of my final year project. This is the pr
 
 This product title is 'Using Serious Games To Raise Highway Code Awareness'.
 
-This product went through several, highly different design iterations ranging from 2d to 3d. 
+This product went through several, highly different design iterations ranging from 2D to 3D. 
 
 I eventually landed on the current design iteration aiming for a 'stylised realism' where you follow the rules of the highway code and answer correctly to the prompted highway code relating question to progress which I believe I accomplished with this.
 
