@@ -13,6 +13,9 @@ Overall, I am happy to a degree with the outcome of this product as it delivers 
 ## Controls
 
 W - Go Forward
+
 A - Turn Left (While Moving)
+
 D - Turn Right (While Moving)
+
 S - Brake
