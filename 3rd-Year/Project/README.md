@@ -9,3 +9,10 @@ This product went through several highly different design iterations ranging fro
 I eventually landed on the current design iteration aiming for a 'stylised realism' where you follow the highway code rules and answer correctly to the prompted highway code relating question to progress, which I believe I accomplished with this. I designed the environment using assets found on the asset store listed in the 'Credits.txt' file in the 'Assets' folder. I used Unity's NavMesh to program the pedestrians walking and crossing the road and different methods for different types of AI such as 'TeleportAI', 'BirdTeleportTrigger' AI and 'BikeAi'.
 
 Overall, I am happy to a degree with the outcome of this product as it delivers what is expected and required of it and achieved 80/100 for this product. Still, where I believe this could be improved is with the 'rough around the edges' feel due to the unity timeline animations primarily, but this is a small part of the product in my opinion.
+
+## Controls
+
+W - Go Forward
+A - Turn Left (While Moving)
+D - Turn Right (While Moving)
+S - Brake
