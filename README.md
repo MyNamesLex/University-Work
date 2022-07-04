@@ -39,3 +39,6 @@
 ### Advanced Computer Graphics 66
 ### Advanced Computer Games Design: 80
 ### Project: 80
+
+## Overall
+First Class Degree (Honours)
