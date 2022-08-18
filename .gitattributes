@@ -14,4 +14,4 @@
 *.config linguist-detectable=false
 
 # remove linguist detectable from renpy generated files and build
-2nd-Year/Computer-Games-Design/Week2Things/Week2AllThings/Week2Game-dists/** -linguist-detectable
+2nd-Year/Computer-Games-Design/Week2Things/Week2AllThings/Week2Game-dists/** linguist-detectable
