@@ -13,4 +13,6 @@
 *.vbs linguist-detectable=false
 *.config linguist-detectable=false
 
-# remove linguist detectable from renpy generated files and build 
+# remove linguist detectable from renpy generated files and build
+Week2Game-dists/* linguist-detectable=false
+renpy/* linguist-detectable=false
