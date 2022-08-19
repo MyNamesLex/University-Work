@@ -15,13 +15,13 @@
 ### OpenGL
 ### GLSL
 ### C#
+### Ren'py
 
 ## 3rd Year Coding Languages
 ### OpenGL 
 ### GLSL
 ### C++
 ### C#
-### Ren'py
 
 # Grades
 
