@@ -15,7 +15,7 @@
 ### OpenGL
 ### GLSL
 ### C#
-### Ren'py
+### Ren'Py
 
 ## 3rd Year Coding Languages
 ### OpenGL 
