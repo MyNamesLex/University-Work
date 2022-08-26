@@ -1,3 +1,3 @@
-# Picko 8
+# Pico 8
 
 I was tasked with developing two Pico 8 games
