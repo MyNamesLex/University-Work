@@ -1,3 +1,3 @@
 # Programming
 
-This work features use of Java and Processing programming languages
+This work features use of the Processing programming language
