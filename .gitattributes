@@ -12,7 +12,3 @@
 *.sh linguist-detectable=false
 *.vbs linguist-detectable=false
 *.config linguist-detectable=false
-
-# Ignore week2 build files in linguist stats
-
-2nd-Year/Computer-Games-Design/Week2Things/Week2AllThings/Week2Game-pc/** linguist-detectable=false
