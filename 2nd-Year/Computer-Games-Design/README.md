@@ -6,11 +6,6 @@ I have only uploaded the ones that I like the most. If I would have to pick my f
 (This was made with the Unity Game Engine using C#)
 
 A basic find the button maze game.
- 
-## Week 2
-(This was made with Ren'py using the Ren'py language which is similar to Python)
-
-This game is a visual novel where you have to find the killer.
 
 ## Week 3
 (This was made with the Unity Game Engine using C#)
