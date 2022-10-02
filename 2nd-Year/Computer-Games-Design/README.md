@@ -7,6 +7,10 @@ I have only uploaded the ones that I like the most. If I would have to pick my f
 
 A basic find the button maze game.
 
+## Week 2
+
+(I did not include my Week 2 Game because I don't think it is a good game)
+
 ## Week 3
 (This was made with the Unity Game Engine using C#)
 
@@ -23,9 +27,7 @@ The whole game a week experience really feels like it has given me a confidence 
 
 ## Week 5
 
-(I did not include my Week 5 Game because I don't think it is a good game.)
+(I did not include my Week 5 Game because I don't think it is a good game)
 
 ## Week 6
 (This was made with the Unity Game Engine using C#)
-
-Continued this project here -> https://github.com/MyNamesLex/Week-6-University-Game-A-Week-Game-Continued
