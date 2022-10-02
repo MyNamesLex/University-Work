@@ -31,3 +31,5 @@ The whole game a week experience really feels like it has given me a confidence 
 
 ## Week 6
 (This was made with the Unity Game Engine using C#)
+
+I continued this game <a href="https://github.com/MyNamesLex/University-Work/tree/main/2nd-Year/Computer-Games-Design/Week6Things/Week6Continued">here</a>
