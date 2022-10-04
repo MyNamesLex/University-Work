@@ -2,6 +2,8 @@
 
 (only including the units/coursework related to games development)
 
+To download a build or directory, use this link <a href="https://download-directory.github.io/">here</a>
+
 ## 1st Year Coding Languages
 
 ### Lua
