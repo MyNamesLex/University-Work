@@ -11,4 +11,4 @@ The three core mechanics that were explained to us to replicate were:
 
 I chose option 3 and this the files in this repo were the outcome.
 
-I believe I did quite well although accomplished in a messy way.
+I believe I did quite well although accomplished in a messy way, all the while utilizing unit tests to help filter out potential hidden bugs.
