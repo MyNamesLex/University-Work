@@ -1,0 +1,22 @@
+.data
+	str1: .asciiz "Enter a four digit number "
+	answer: .asciiz "The answer is "
+	num: .float 33
+	
+.text 
+li $v0, 4
+la $a0, str1
+syscall
+#this will show str1
+
+li $v0, 5
+syscall
+add $s0, $v0, 0
+
+mtc1 $s0, $f0
+cvt.s.w $f0, $f0
+l.s $f1, num
+div.s $f12, $f0, $f1
+#prints the answer
+li $v0, 2
+syscall

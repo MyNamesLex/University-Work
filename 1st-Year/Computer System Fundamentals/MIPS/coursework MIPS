@@ -1,0 +1,45 @@
+.data 
+	str1: .asciiz "Please input your name "
+	str2: .asciiz "Please input your ID "
+	str3: .asciiz "Your name is "
+	str4: .asciiz "Your ID is "
+	name: .space 20
+.text	
+	li $v0, 4
+	la $a0, str1
+	syscall
+	
+	li $v0, 8
+	la $a0, name
+	li $a1, 20
+	syscall	# name -> name
+	
+	#print str2
+	li $v0, 4
+	la $a0, str2
+	syscall
+	
+	li $v0, 5
+	syscall
+	move $s0, $v0 #ID -> s0
+	
+	#print str3
+	li $v0, 4
+	la $a0, str3
+	syscall
+
+	
+	#print name
+	li $v0, 4
+	la $a0, name
+	syscall
+
+	#print str4
+	li $v0, 4
+	la $a0, str4
+	syscall
+	
+	#print $s0
+        li $v0, 1
+	move $a0, $s0 
+	syscall

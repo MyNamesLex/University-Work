@@ -1,0 +1,34 @@
+.data
+	str1: .asciiz "Please input a two digit number :"
+	answer: .asciiz "The nearest integer is :"
+.text 
+	
+	#print str1 
+	li $v0 4
+	la $a0 str1 
+	syscall 
+	
+	#user input/Read in
+	li $v0 5
+	syscall
+	move $s0 $v0 
+	li $s1 2
+	div $s0 $s1 
+	#store remainders 
+	mflo $t0 #lo in t0
+	mfhi $t1 #hi in t1
+	
+	#If statement 
+	#if $t1==0 print $t0 
+	#else print ($t0+1)
+	beqz $t1 print  
+	add $t0 $t0 1 
+	
+print: #Print answer 
+	li $v0 4
+	la $a0 answer
+	syscall 
+	#Print t0 
+	move $a0 $t0 
+	li $v0 1
+	syscall 

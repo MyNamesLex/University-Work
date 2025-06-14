@@ -1,0 +1,90 @@
+li {list-style-type: none;
+font-size: 16pt;
+}
+.mail {
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 700px;
+background : #c1c1c1 ;
+border: 1px soild silver;
+margin-top: 100px;
+}
+.mail h2 {
+margin-left: 38px;
+}
+
+.header {
+	height: 150px;
+}
+
+.header h3 {
+	float: left;
+}
+
+.mail h4 {
+	float: left;
+	margin-right: 550px;
+}
+
+
+.mail h6 {
+	float: left;
+	margin-right: 50px;
+}
+
+.mail #Months{
+	float: center;
+	
+}
+
+.mail #Years{
+	float: center;
+}
+
+.mail #CV {
+	float: center;
+	margin-right: 150px;
+}
+
+.mail h6 {
+margin-left: 38px;
+}
+
+.secondpagemail {
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 700px;
+height: 700px;
+background : #c1c1c1 ;
+border: 1px soild silver;
+margin-top: 100px;
+}
+
+input {
+font-size: 20pt;
+}
+
+input:focus, textarea:focus{
+background-color: lightyellow;
+}
+
+input Submit {
+font-size: 12pt;
+}
+
+.rq {
+color: #FF0000;
+font-size: 10pt;
+}
+
+h1 {
+	float: left;
+}
+img {
+	width: 150px;
+	height: 75px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
